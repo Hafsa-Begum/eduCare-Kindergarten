@@ -2,7 +2,7 @@
 
 Visit our kindergarten school [edu-Care Kindergarten](https://assignment-9-edu-care-kindergarten-by-hafsa.netlify.app/).
 
-## Available Scripts
+## Available Facilities
 
 1. 2.5 years to 12years children can be teached in our school
 2. We have two shifting facilities. morning and noon shifting
