@@ -7,10 +7,10 @@ const Footer = () => {
             <section className="">
                 <div className='d-flex text-white justify-content-around align-items-center'>
                     <div className='pe-0 me-0 ps-5 '>
+                        <img className='rounded-circle bg-white' src="https://i.ibb.co/QPDcxVw/logo.png" alt=""
+                            style={{ width: '80px' }} />
                         <h3 style={{ color: 'tomato' }}>edu-Care</h3>
                         <p><small>Kindergarten</small></p>
-                        <img className='rounded-circle bg-white' src="https://i.ibb.co/QPDcxVw/logo.png" alt=""
-                            style={{ width: '100px' }} /> <br />
                         <div className='pt-3'>
                             <i className="fab fa-facebook pe-3"></i>
                             <i className="fab fa-instagram pe-3"></i>

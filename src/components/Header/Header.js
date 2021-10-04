@@ -16,17 +16,25 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item me-3">
-                            <NavLink className="nav-link active text-white fs-5" aria-current="page" to="/home">Home</NavLink>
+                        <li className="nav-item me-3 text-white">
+                            <NavLink activeStyle={{
+                                fontWeight: "bold"
+                            }} className="nav-link active text-white fs-5" aria-current="page" to="/home">Home</NavLink>
+                        </li>
+                        <li className="nav-item me-3 ">
+                            <NavLink activeStyle={{
+                                fontWeight: "bold"
+                            }} className="nav-link text-white fs-5" to="/about">About</NavLink>
                         </li>
                         <li className="nav-item me-3">
-                            <NavLink className="nav-link text-white fs-5" to="/about">About</NavLink>
-                        </li>
-                        <li className="nav-item me-3">
-                            <NavLink className="nav-link text-white fs-5" to="/services">Services</NavLink>
+                            <NavLink activeStyle={{
+                                fontWeight: "bold"
+                            }} className="nav-link text-white fs-5" to="/services">Services</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-white fs-5" to="/contact">Contact Us</NavLink>
+                            <NavLink activeStyle={{
+                                fontWeight: "bold"
+                            }} className="nav-link text-white fs-5" to="/contact">Contact Us</NavLink>
                         </li>
                     </ul>
 
