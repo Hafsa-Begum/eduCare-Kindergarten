@@ -1,0 +1,11 @@
+.background-img{
+    background-image: url('https://en.pimg.jp/048/513/821/1/48513821.jpg');
+    background-color: #cccccc;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner-name{
+    color: tomato;
+}
