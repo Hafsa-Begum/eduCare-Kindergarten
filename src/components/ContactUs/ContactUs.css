@@ -1,0 +1,17 @@
+.form-background{
+    background-image: url('https://image.shutterstock.com/image-illustration/abstract-colorful-watercolor-background-digital-260nw-365316926.jpg');
+    background-color: #cccccc;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div .straight-line{
+    height: 3px;
+    width: 30px;
+    text-align: center;
+    background-color: #292659;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}

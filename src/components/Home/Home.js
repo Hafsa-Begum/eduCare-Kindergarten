@@ -30,12 +30,12 @@ const Home = () => {
 
                 </div>
             </div>
-            <div className='py-5 my-5 mx-5'>
-                <h1 className='py-5 text-center' style={{ color: "tomato" }}>Our Services</h1>
+            <div className='pt-5 mt-5 mx-5'>
+                <h1 className='py-5 text-center' style={{ color: "tomato" }}>Our Services <div className='straight-line'></div></h1>
 
                 <div className='row row-cols-1 row-cols-md-3 g-4'>
                     {
-                        services.slice(0, 4).map(service => (
+                        services.slice(0, 5).map(service => (
                             <div class="col">
                                 <div class="card h-100">
                                     <img className='w-100 rounded-3 mb-3 card-img-top' style={{ height: '300px' }} src={service.image} alt="" />

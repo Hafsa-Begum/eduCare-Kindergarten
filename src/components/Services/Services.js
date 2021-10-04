@@ -8,8 +8,8 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div className='container'>
-            <h1 className='py-5 text-center' style={{ color: "tomato" }}>Our All Services</h1>
+        <div className='container mb-5'>
+            <h1 className='py-5 text-center' style={{ color: "tomato" }}>Services <div className='straight-line'></div></h1>
 
             <div className='row row-cols-1 row-cols-md-3 g-4'>
                 {
