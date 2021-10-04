@@ -1,6 +1,6 @@
 # Getting Introduced with edu-Care Kindergarten
 
-Visit our kindergarten school [edu-Care Kindergarten](https://github.com/ProgrammingHeroWC4/review-website-Hafsa-Begum).
+Visit our kindergarten school [edu-Care Kindergarten](https://assignment-9-edu-care-kindergarten-by-hafsa.netlify.app/).
 
 ## Available Scripts
 
