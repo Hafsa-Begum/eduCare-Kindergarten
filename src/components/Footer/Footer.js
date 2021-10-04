@@ -35,8 +35,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <p className='text-center pt-5 mt-5' style={{ color: 'tomato' }}><small>© All Rights Reserved by edu-Care Kindergarten</small></p>
             </section>
-            <p className='text-center' style={{ color: 'tomato' }}><small>© All Rights Reserved by edu-Care Kindergarten</small></p>
+
         </div>
     );
 };
