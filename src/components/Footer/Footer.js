@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='footer-background pt-5'>
             <section className="">
                 <div className='d-flex text-white justify-content-around align-items-center'>
-                    <div className='pe-0 me-0 '>
+                    <div className='pe-0 me-0 ps-5 '>
                         <h3 style={{ color: 'tomato' }}>edu-Care</h3>
                         <p><small>Kindergarten</small></p>
                         <img className='rounded-circle bg-white' src="https://i.ibb.co/QPDcxVw/logo.png" alt=""
@@ -18,7 +18,7 @@ const Footer = () => {
                             <i className="fab fa-twitter"></i>
                         </div>
                     </div>
-                    <div className='pe-5 me-5 ps-0 ms-0'>
+                    <div className='pe-5 me-5 ps-5 ms-5'>
                         <h4 className='py-3'>Get in touch</h4>
                         <p> <i className="fas fa-map-marker-alt"></i> 4000 Central Florida Blvd. Orlando, Florida, 32816</p>
                         <p><i className="fas fa-phone"></i> +03601 885399</p>
