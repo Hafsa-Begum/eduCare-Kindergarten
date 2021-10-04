@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='footer-background pt-5'>
-            <section class="">
+            <section className="">
                 <div className='d-flex text-white justify-content-around align-items-center'>
                     <div className='pe-0 me-0 '>
                         <h3 style={{ color: 'tomato' }}>edu-Care</h3>
@@ -12,10 +12,10 @@ const Footer = () => {
                         <img className='rounded-circle bg-white' src="https://i.ibb.co/QPDcxVw/logo.png" alt=""
                             style={{ width: '100px' }} /> <br />
                         <div className='pt-3'>
-                            <i class="fab fa-facebook pe-3"></i>
-                            <i class="fab fa-instagram pe-3"></i>
-                            <i class="fab fa-linkedin-in pe-3"></i>
-                            <i class="fab fa-twitter"></i>
+                            <i className="fab fa-facebook pe-3"></i>
+                            <i className="fab fa-instagram pe-3"></i>
+                            <i className="fab fa-linkedin-in pe-3"></i>
+                            <i className="fab fa-twitter"></i>
                         </div>
                     </div>
                     <div className='pe-5 me-5 ps-0 ms-0'>
