@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NotFound.css';
 
 const NotFound = () => {
@@ -8,6 +9,9 @@ const NotFound = () => {
                 <h1>404</h1>
                 <h3>Oooppps!</h3>
                 <p>The page you search is not available!!!</p>
+                <Link to='/home'>
+                    <button className="btn text-white fw-bold  px-3 py-2 my-3" style={{ backgroundColor: 'tomato' }}>Back to Home</button>
+                </Link>
             </div>
         </div>
     );
