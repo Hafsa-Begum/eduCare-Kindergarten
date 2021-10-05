@@ -31,7 +31,7 @@ const Header = () => {
                                 fontWeight: "bold"
                             }} className="nav-link text-white fs-5" to="/services">Services</NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-3">
                             <NavLink activeStyle={{
                                 fontWeight: "bold"
                             }} className="nav-link text-white fs-5" to="/teacher">Teachers</NavLink>
