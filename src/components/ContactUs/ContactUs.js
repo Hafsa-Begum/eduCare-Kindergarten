@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <div className="row my-5 px-5 form-background">
+            <div className="row mt-5 px-5 form-background">
                 <div className="col-md-6">
 
                     <form className='w-75 ms-5'>
@@ -42,7 +42,7 @@ const Contact = () => {
 
                 </div>
                 <div className="col-md-6 text-center py-3">
-                    <img className='w-75 mb-5 rounded-3' style={{ maxHeight: "350px" }} src="https://demo.themewinter.com/wp/courselog/kindergarten/wp-content/uploads/sites/8/2021/04/email_image.jpg" alt="" />
+                    <img className='w-75 mb-5 rounded-3' style={{ height: "350px" }} src="https://demo.themewinter.com/wp/courselog/kindergarten/wp-content/uploads/sites/8/2021/04/email_image.jpg" alt="" />
                 </div>
             </div>
         </div>
