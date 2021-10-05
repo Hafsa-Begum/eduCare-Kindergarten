@@ -28,7 +28,7 @@ const Home = () => {
 
                 </div>
             </div>
-            <div className='pt-5 mt-5 mx-5'>
+            <div className='mx-5'>
                 <h1 className='py-5 text-center' style={{ color: "tomato" }}>Our Services <div className='straight-line'></div></h1>
 
                 <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-group'>
