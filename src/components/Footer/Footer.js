@@ -11,7 +11,7 @@ const Footer = () => {
                             style={{ width: '80px' }} />
                         <h3 style={{ color: 'tomato' }}>edu-Care</h3>
                         <p><small>Kindergarten</small></p>
-                        <div className='pt-3'>
+                        <div className='pt-2'>
                             <i className="fab fa-facebook pe-3"></i>
                             <i className="fab fa-instagram pe-3"></i>
                             <i className="fab fa-linkedin-in pe-3"></i>

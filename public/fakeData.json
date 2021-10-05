@@ -1,56 +1,110 @@
 [
     {
+        "teacher": {
+            "name": "Stephanie Liverani ",
+            "role": "Programming Teacher ",
+            "image": "https://i.ibb.co/Mfpzb53/stephanie-liverani-Zz5-LQe-VSMY-unsplash.jpg "
+        },
         "name": "Programming for Kids and Beginners: Learn to Code in Scratch",
         "image": "https://i.ibb.co/9TTf7wR/compare-fibre-Ji-OFFI3-W7-IA-unsplash.jpg",
         "price": 300,
-        "duration": "Six months"
+        "duration": "6 Months",
+        "age": "8-12 Years"
     },
     {
+        "teacher": {
+            "name": "Ben Parker ",
+            "role": "Robotics Trainer ",
+            "image": "https://i.ibb.co/MPVPdK2/ben-parker-ym-m-SBZ0ro-unsplash.jpg "
+        },
         "name": "Robotics for Kids and Beginners: Learn Basic of Robotics",
         "image": "https://i.ibb.co/mF9Ck0W/adam-winger-2fr56-H6rg-Jk-unsplash.jpg",
         "price": 400,
-        "duration": "Four months"
+        "duration": "4 Months",
+        "age": "8-12 Years"
     },
     {
-        "name": "Marshal Art Club for Kids and Beginners",
+        "teacher": {
+            "name": " Brooke Cagle",
+            "role": " Kung Fu Teacher ",
+            "image": "https://i.ibb.co/kSwJtKF/brooke-cagle-Nm70-URdtf3c-unsplash.jpg "
+        },
+        "name": "Martial Art Club for Kids and Beginners",
         "image": "https://i.ibb.co/DMYnNkK/note-thanun-CYl-Pyk-F-q-AM-unsplash.jpg",
         "price": 200,
-        "duration": "Six months"
+        "duration": "6 Months",
+        "age": "8-12 Years"
     },
     {
-        "name": "Art & Craft Club for Kids",
+        "teacher": {
+            "name": "Christian Acosta ",
+            "role": "Art Teacher ",
+            "image": "https://i.ibb.co/PZfV9by/christian-acosta-w1y-TGE0m-Dw-E-unsplash.jpg "
+        },
+        "name": "Art & Craft Club with having fun for your Kids",
         "image": "https://i.ibb.co/hmfHnGd/mike-fox-Ym301-Wfc-Ek-E-unsplash.jpg",
         "price": 200,
-        "duration": "Four months"
+        "duration": "4 Months",
+        "age": "2.5-12 Years"
     },
     {
+        "teacher": {
+            "name": "Logan Weaver ",
+            "role": "English Teacher ",
+            "image": "https://i.ibb.co/nmcXFc3/logan-weaver-Isle-8-Ypb-IQ-unsplash.jpg "
+        },
         "name": "English Learning and Speaking Club for Kids and Beginners",
         "image": "https://i.ibb.co/0QVnqL8/adam-winger-UFG04g43hqs-unsplash.jpg",
         "price": 200,
-        "duration": "Three months"
+        "duration": "3 Months",
+        "age": "5-12 Years"
     },
     {
+        "teacher": {
+            "name": "Yusron El Jihan ",
+            "role": " Arabic Teacher ",
+            "image": "https://i.ibb.co/fFQ0tMN/yusron-el-jihan-Yo-C92-GCSv-Q-unsplash.jpg "
+        },
         "name": "Arabic Learning and Speaking Club for Kids and Beginners",
         "image": "https://i.ibb.co/tmf1Bth/husniati-salma-ldk-HWg5s3-Ec-unsplash.jpg",
         "price": 500,
-        "duration": "Three months"
+        "duration": "3 Months",
+        "age": "5-12 Years"
     },
     {
+        "teacher": {
+            "name": "Saif Jahed ",
+            "role": "Bangla Teacher ",
+            "image": "https://i.ibb.co/x23Tz2h/ben-tofan-RYii-DNY7t-J0-unsplash.jpg "
+        },
         "name": "Bangla Learning and Speaking Club for Kids and Beginners",
         "image": "https://i.ibb.co/w0Sxnsf/capturing-the-human-heart-FQ1-L770x6l8-unsplash.jpg",
         "price": 600,
-        "duration": "Three months"
+        "duration": "3 Months",
+        "age": "5-12 Years"
     },
     {
-        "name": "Dancing Club for Kids and Beginners",
+        "teacher": {
+            "name": "Joanna Nix ",
+            "role": "Dancing Teacher ",
+            "image": "https://i.ibb.co/NxBbzkt/joanna-nix-walkup-p7z-Gmc33s0-U-unsplash.jpg "
+        },
+        "name": "Dancing and Music Club for Kids and Beginners",
         "image": "https://i.ibb.co/68XrVQx/anna-earl-XBDHm-IXvsv-M-unsplash.jpg",
         "price": 300,
-        "duration": "Six months"
+        "duration": "6 Months",
+        "age": "4-12 Years"
     },
     {
-        "name": "Mathmatics Club for Kids",
+        "teacher": {
+            "name": "Aslan Kumarov ",
+            "role": "Math Teacher ",
+            "image": "https://i.ibb.co/MsVN437/aslan-kumarov-Fs-Wi0s-Boi8c-unsplash.jpg "
+        },
+        "name": "Advanced Mathmatics Club with having fun for Kids",
         "image": "https://i.ibb.co/BKCKm7B/robo-wunderkind-Qp-Jv4-J-AA-unsplash.jpg",
         "price": 400,
-        "duration": "Six months"
+        "duration": "6 Months",
+        "age": "8-12 Years"
     }
 ]

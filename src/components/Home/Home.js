@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { ServiceContext } from '../../App';
 import './Home.css';
 
 const Home = () => {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch('./fakeData.json')
-            .then(res => res.json())
-            .then(data => setServices(data))
-    }, [])
+
+    const services = useContext(ServiceContext);
+
     return (
         <div className='pb-5 mb-5'>
             <div className='background-img'>
@@ -33,16 +31,20 @@ const Home = () => {
             <div className='pt-5 mt-5 mx-5'>
                 <h1 className='py-5 text-center' style={{ color: "tomato" }}>Our Services <div className='straight-line'></div></h1>
 
-                <div className='row row-cols-1 row-cols-md-3 g-4'>
+                <div className='row row-cols-1 row-cols-md-3 g-4 card-group'>
                     {
                         services.slice(0, 5).map(service => (
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card h-100 hover-effect">
                                     <img className='w-100 rounded-3 mb-3 card-img-top' style={{ height: '300px' }} src={service.image} alt="" />
                                     <div style={{ backgroundColor: 'teal' }} className="card-body text-white px-5">
                                         <h5 class="card-title">{service.name}</h5>
-                                        <p class="card-text">Price: $ {service.price}</p>
-                                        <p><small> Duration: {service.duration}</small></p>
+                                        <div className='d-flex justify-content-between pt-3'>
+                                            <p><i class="fas fa-child"></i> {service.age}</p>
+                                            <p class="card-text">${service.price}</p>
+
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>

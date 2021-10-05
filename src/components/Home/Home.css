@@ -9,3 +9,10 @@
 #banner-name{
     color: tomato;
 }
+.hover-effect{
+    transition: 0.5s;
+}
+.hover-effect:hover{
+transform:scale(1.02);
+cursor: pointer;
+}
