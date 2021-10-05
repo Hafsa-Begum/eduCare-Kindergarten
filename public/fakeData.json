@@ -106,5 +106,29 @@
         "price": 400,
         "duration": "6 Months",
         "age": "8-12 Years"
+    },
+    {
+        "teacher": {
+            "name": "Abida Jahin ",
+            "role": "Gardening Teacher ",
+            "image": "https://i.ibb.co/qD8qyrz/yusron-el-jihan-YRJs-Ma72-UDw-unsplash.jpg "
+        },
+        "name": "Gardening and Planting Club for Nature loving Kids",
+        "image": "https://i.ibb.co/z5pZfXh/jonathan-borba-47wh-M1-ZEvf-U-unsplash.jpg",
+        "price": 150,
+        "duration": "6 Months",
+        "age": "8-12 Years"
+    },
+    {
+        "teacher": {
+            "name": "Angello Starck ",
+            "role": "Photographic Teacher ",
+            "image": "https://i.ibb.co/YZts0CL/angello-pro-Ieg-Ya-CY101s-unsplash.jpg "
+        },
+        "name": "Basic and Advanced Photographic Skill Developing Club for Kids",
+        "image": "https://i.ibb.co/BG3mr3R/annie-spratt-Zb-Zgfhos-Hhk-unsplash.jpg",
+        "price": 400,
+        "duration": "6 Months",
+        "age": "8-12 Years"
     }
 ]

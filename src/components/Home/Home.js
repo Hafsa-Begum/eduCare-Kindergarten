@@ -10,8 +10,8 @@ const Home = () => {
     return (
         <div className='pb-5 mb-5'>
             <div className='background-img'>
-                <div className='row py-5 text-start px-5'>
-                    <div className="col-md-5 px-5 mx-5">
+                <div className='d-lg-flex w-100 container d-sm-block py-5 text-start px-5 '>
+                    <div className="w-100">
                         <h1 id='banner-name' style={{
                             color: '#292659',
                             fontSize: '64px'
@@ -22,8 +22,8 @@ const Home = () => {
                         <p>We pride ourselves on being able to provide happy, safe inclusive environment which children aged two and a half to twelve years old.</p>
                         <button className="btn text-white fw-bold  px-3 py-2" style={{ backgroundColor: 'tomato' }}>Visit Our School </button>
                     </div>
-                    <div className="col-md-5">
-                        <img className='img-fluid ps-5 rounded' src="https://demo.themewinter.com/wp/courselog/kindergarten/wp-content/uploads/sites/8/2021/03/hero_area_Image.png" alt="" />
+                    <div className="w-100">
+                        <img className='w-100 ps-5 rounded' src="https://demo.themewinter.com/wp/courselog/kindergarten/wp-content/uploads/sites/8/2021/03/hero_area_Image.png" alt="" />
                     </div>
 
                 </div>
@@ -31,7 +31,7 @@ const Home = () => {
             <div className='pt-5 mt-5 mx-5'>
                 <h1 className='py-5 text-center' style={{ color: "tomato" }}>Our Services <div className='straight-line'></div></h1>
 
-                <div className='row row-cols-1 row-cols-md-3 g-4 card-group'>
+                <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-group'>
                     {
                         services.slice(0, 5).map(service => (
                             <div class="col">

@@ -11,7 +11,7 @@ const Contact = () => {
                     <img className='w-75' src="https://potionwebstudio.com/wp-content/uploads/2018/10/google-map3-1080x630.jpg" alt="" />
                 </div>
                 <div className=' col-md-6 d-flex justify-content-center align-items-center'>
-                    <div>
+                    <div className='my-5'>
                         <h2 style={{ color: "tomato" }}>Stay in touch with us</h2>
                         <p> <i className="fas fa-map-marker-alt"></i> 4000 Central Florida Blvd. Orlando, Florida, 32816</p>
                         <p><i className="fas fa-phone"></i> +03601 885399</p>
@@ -41,8 +41,8 @@ const Contact = () => {
                     </form>
 
                 </div>
-                <div className="col-md-6 text-center" style={{ height: "350px" }}>
-                    <img className='w-75 mb-5 rounded-3' src="https://demo.themewinter.com/wp/courselog/kindergarten/wp-content/uploads/sites/8/2021/04/email_image.jpg" alt="" />
+                <div className="col-md-6 text-center py-3">
+                    <img className='w-75 mb-5 rounded-3' style={{ maxHeight: "350px" }} src="https://demo.themewinter.com/wp/courselog/kindergarten/wp-content/uploads/sites/8/2021/04/email_image.jpg" alt="" />
                 </div>
             </div>
         </div>

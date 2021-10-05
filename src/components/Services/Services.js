@@ -9,7 +9,7 @@ const Services = () => {
         <div className='container mb-5'>
             <h1 className='py-5 text-center' style={{ color: "tomato" }}>Services <div className='straight-line'></div></h1>
 
-            <div className='row row-cols-1 row-cols-md-3 g-4'>
+            <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
                 {
                     services.map(service => (
                         <div class="col">
